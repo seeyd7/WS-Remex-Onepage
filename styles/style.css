@@ -365,3 +365,53 @@ header {
     height: 200px;
   }
 }
+/* Projects */
+/* Reviews */
+.slideshow-container {
+  position: relative;
+  background: #10c9c3;
+}
+.mySlides {
+  display: none;
+  height: 40vh;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #10c9c3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  transition: 0.15s;
+}
+.active-slide, .dot:hover {
+  background-color: white;
+  height: 17px;
+  width: 17px;
+}
+q {
+  font-size: 20px;
+  color: white;
+}
+.author {
+  color: white;
+}
+/* Reviews */
