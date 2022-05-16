@@ -26,7 +26,7 @@ input[type=number] {
     right: 40px;
     width: 40px;
     height: 40px;
-    background-color: #10c9c3;
+    background-color: #f0932b;
     border: none;
     box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2);
     border-radius: 6px;
@@ -91,11 +91,12 @@ nav{
   outline: none;
   z-index: 1000;
   display: none;
+  color: white;
 }
 .menu-toggler span{
   display: block;
   height: 3px;
-  background-color: #000;
+  background-color: #fff;
   margin: 6px 0;
   position: relative;
   transition: .3s linear;
@@ -109,7 +110,7 @@ nav{
   transition: .2s linear;
 }
 .navbar-menu a:hover{
-  color: #10c9c3;
+  color: #f0932b;
 }
 @media screen and (max-width: 980px){
   .home h1 {
@@ -125,7 +126,7 @@ nav{
     position: fixed;
     height: 100vh;
     width: 85%;
-    background: white;
+    background: #fcb15d;
     right: -100%;
     top: 0;
     max-width: 400px;
@@ -137,7 +138,7 @@ nav{
     display: block;
     font-size: 22px;
     margin: 30px 0;
-    color: black;
+    color: white;
   }
   .menu-toggler {
     position: fixed;
@@ -186,22 +187,24 @@ header {
 }
 #home .btn {
   color: white;
-  background-color: #10c9c3;
+  background-color: #f0932b;
   padding: 3% 6% 3% 6%;
   text-transform: uppercase;
   font-size: 14px;
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: .3s;
 }
 #home .btn:hover {
-  background-color: #62ebe6;
+  background-color: #fcb15d;
+  padding: 3% 8% 3% 8%;
 }
 /* Header */
 /* Portfolio info */
 #portfolio-info {
   height: 30vh;
-  background-color: #10c9c3;
+  background-color: #f0932b;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -247,7 +250,7 @@ header {
 }
 /* Portfolio info */
 /* About */
-#aboutus {
+#technology {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -367,9 +370,18 @@ header {
 }
 /* Projects */
 /* Reviews */
+#reviews-holder {
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f0932b;
+  color: white;
+}
 .slideshow-container {
   position: relative;
-  background: #10c9c3;
+  background: #f0932b;
 }
 .mySlides {
   display: none;
@@ -386,7 +398,7 @@ header {
 .dot-container {
   text-align: center;
   padding: 20px;
-  background: #10c9c3;
+  background: #f0932b;
   display: flex;
   justify-content: center;
   align-items: center;
