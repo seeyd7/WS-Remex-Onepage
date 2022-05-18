@@ -519,9 +519,9 @@ article {
 .info a {
   justify-content: center;
   align-items: center;
-  color: #3498db;;
+  color: #f0932b;
   font-size: 15px;
-  border: 1px solid #f0932b
+  border: 1px solid #f0932b;
   border-radius: 6px;
   padding: 2% 4%;
   transition: .6s
