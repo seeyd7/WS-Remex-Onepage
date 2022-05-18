@@ -368,6 +368,12 @@ header {
     height: 200px;
   }
 }
+@media screen and (max-width: 290px) {
+  .project img{
+    width: 150px;
+    height: 150px;
+  }
+}
 /* Projects */
 /* Reviews */
 #reviews-holder {
@@ -650,6 +656,7 @@ footer {
   width: 40%;
   padding: 40px;
   background: #fff;
+  text-align: center;
 }
 .contactForm h2 {
   font-size: 30px;
@@ -713,6 +720,11 @@ footer {
     width: 100%;
   }
 }
+@media (max-width: 340px) {
+  .contact {
+    padding: 20px;
+  }
+}
 footer {
   color: white;
   background-color: #0c0c0c;
@@ -720,5 +732,6 @@ footer {
   justify-content: center;
   align-items: center;
   height: 7vh;
+  text-align: center;
 }
 /* Stopka kontakt */
