@@ -521,13 +521,13 @@ article {
   align-items: center;
   color: #3498db;;
   font-size: 15px;
-  border: 1px solid #3498db;
+  border: 1px solid #f0932b
   border-radius: 6px;
   padding: 2% 4%;
   transition: .6s
 }
 .info a:hover {
-  background-color: #3498db;;
+  background-color: #f0932b;
   color: #fff;
 }
 .article-content:hover > .info {
