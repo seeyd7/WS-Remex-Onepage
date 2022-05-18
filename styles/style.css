@@ -126,8 +126,8 @@ nav{
     position: fixed;
     height: 100vh;
     width: 85%;
-    background: #fcb15d;
-    right: -100%;
+    background: #0c0c0c;
+    right: -98%;
     top: 0;
     max-width: 400px;
     padding: 80px 50px;
@@ -429,3 +429,296 @@ q {
   color: white;
 }
 /* Reviews */
+/* Realizations */
+#realizations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0c0c0c;
+  color: white;
+}
+.articles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  background-color: white;
+  color: white;
+  padding: 2%;
+}
+article {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100%;
+  background-color: #0c0c0c !important;
+  color: white;
+  padding: 2%;
+}
+.article-content {
+  margin-bottom: 4%;
+  display: flex;
+  height: 60vh;
+  width: 45%;
+  background: no-repeat center;
+  background-size: auto 100%;
+}
+.slider {
+  animation: bounce 1.5s infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.6);
+  height: 80px;
+  width: 43.2%;
+  color: white;
+  transition: 1s;
+  padding: 4%;
+  position: absolute;
+  align-self: flex-end;
+}
+.slider h1 {
+  transition: 2s;
+  font-size: 40px;
+}
+.portfolio-slider {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 20px;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 4%;
+  z-index: 0;
+  color: white;
+  opacity: 0;
+  transition: 1s;
+  transition-delay: 0.2s;
+}
+.info h1, .info p, .info a {
+  margin: 0;
+  margin: 2%;
+}
+.info a {
+  justify-content: center;
+  align-items: center;
+  color: #3498db;;
+  font-size: 15px;
+  border: 1px solid #3498db;
+  border-radius: 6px;
+  padding: 2% 4%;
+  transition: .6s
+}
+.info a:hover {
+  background-color: #3498db;;
+  color: #fff;
+}
+.article-content:hover > .info {
+  opacity: 1;
+  z-index: 999;
+}
+.article-content:hover > .slider {
+  height: 60vh;
+  animation: none;
+}
+.article-content:hover > .slider h1 {
+  display: none;
+}
+@media screen and (max-width: 1100px){
+  article {
+    flex-direction: column;
+  }
+  .article-content {
+    width: 90%;
+    margin-bottom: 4%;
+  }
+  .slider {
+    width: 86.5%;
+  }
+}
+@media screen and (max-width: 650px) {
+  .info p {
+    font-size: 12px;
+  }
+  .portfolio-slider {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .info p {
+    font-size: 11px;
+  }
+@media only screen and (width:320px){
+  .info p {
+    font-size: 11px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .info p {
+    font-size: 23px;
+  }
+}
+}
+/* Realizations */
+/* Stopka kontakt */
+.contact {
+  position: relative;
+  min-height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(../img/bg2.jpg);
+  background-size: cover;
+  padding: 50px 100px;
+}
+footer {
+  background: rgba(0, 0, 0, 0.9) !important;
+  height: 100%;
+  width: 100%;
+}
+.contact .content {
+  max-width: 800px;
+  text-align: center;
+}
+.contact .content h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #fff;
+}
+.contact .content p {
+  font-weight: 300;
+  color: #fff;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.container .contactInfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.container .contactInfo .box {
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+.container .contactInfo .box .icon {
+  min-width: 60px;
+  height: 60px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+.container .contactInfo .box .text {
+  display: flex;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #fff;
+  flex-direction: column;
+  font-weight: 300;
+}
+.container .contactInfo .box .text h3 {
+  font-weight: 500;
+  color: #f0932b;
+}
+.contactForm {
+  width: 40%;
+  padding: 40px;
+  background: #fff;
+}
+.contactForm h2 {
+  font-size: 30px;
+  color: #333;
+  font-weight: 500;
+}
+.contactForm .inputBox {
+  position: relative;
+  width: 100%;
+  margin-top: 10px;
+}
+.contactForm .inputBox input, .contactForm .inputBox textarea {
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+.contactForm .inputBox span {
+  position: absolute;
+  left: 0;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  pointer-events: none;
+  transition: 0.5s;
+  color: #666;
+}
+.contactForm .inputBox input:focus ~ span, 
+.contactForm .inputBox input:valid ~ span,
+.contactForm .inputBox textarea:focus ~ span, 
+.contactForm .inputBox textarea:valid ~ span {
+  color: #e91e63;
+  font-size: 12px;
+  transform: translateY(-20px);
+}
+.contactForm .inputBox input[type="submit"]
+{
+  width: 100px;
+  background: #f0932b;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 18px;
+}
+@media (max-width: 991px) {
+  .contact {
+    padding: 50px;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .container .contactInfo {
+    margin-bottom: 40px;
+  }
+  .container .contactInfo, .contactForm {
+    width: 100%;
+  }
+}
+footer {
+  color: white;
+  background-color: #0c0c0c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+}
+/* Stopka kontakt */
