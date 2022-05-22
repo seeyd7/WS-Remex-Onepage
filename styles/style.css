@@ -261,7 +261,7 @@ header {
   flex-direction: column;
   padding: 3%;
   background-color: #FFFFFF;
-  color: #FFFFFF;
+  color: black;
   height: 100%;
 }
 .about-main-container {
