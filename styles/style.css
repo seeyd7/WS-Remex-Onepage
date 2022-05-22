@@ -333,23 +333,26 @@ header {
 .project {
   margin: 2%;
   padding: 3%;
-  height: 65vh;
   width: 25%;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #13131a;
+  background-color: #F2E9D7;
   flex-direction: column;
-  border: .1rem solid rgba(255,255,255,.3);
 }
 .project img {
   width: 250px;
   height: 250px;
   border-radius: 50%;
   object-fit: cover;
+  margin: 5%;
+}
+.project a {
+  margin: 5%;
 }
 .project hr {
   width: 80%;
+  border: #392624 1px solid;
 }
 @media screen and (max-width: 1300px) {
   .project {
