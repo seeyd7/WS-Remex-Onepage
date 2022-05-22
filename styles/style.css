@@ -113,9 +113,9 @@ nav{
   font-weight: 200;
 }
 .navbar-menu a:hover{
-  color: #392624;
+  color: #684743;
 }
-@media screen and (max-width: 980px){
+@media screen and (max-width: 1010px){
   .home h1 {
     font-size: 50px;
   }
@@ -455,7 +455,7 @@ q {
   align-items: center;
   flex-direction: column;
   background-color: #FFFFFF;
-  color: white;
+  color: black;
 }
 .articles {
   display: flex;
