@@ -351,7 +351,19 @@ header {
   margin: 5%;
 }
 .project a {
-  color: #392624;
+  background-color: #392624;
+  padding: 3% 6% 3% 6%;
+  text-transform: uppercase;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .3s;
+  color: white;
+}
+.project a:hover {
+  background-color: #684743;
+  padding: 3% 8% 3% 8%;
 }
 @media screen and (max-width: 1300px) {
   .project {
