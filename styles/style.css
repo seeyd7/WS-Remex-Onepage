@@ -179,6 +179,7 @@ header {
   text-align: center;
   justify-content: flex-start;
 }
+
 #home {
   display: flex;
   justify-content: flex-start;
