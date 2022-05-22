@@ -273,17 +273,8 @@ header {
   background-color: #F2E9D7;
   margin: 3%;
 }
-.about-main-container {
-  width: 90%;
-  height: 60vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #F2E9D7;
-  margin: 3%;
-}
 .about-main-container h2, .about-main-container p {
-  color: #FFFFFF;
+  color: black;
 }
 .row-reverse {
   flex-direction: row-reverse;
