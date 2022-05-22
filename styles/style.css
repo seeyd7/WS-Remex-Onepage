@@ -260,7 +260,7 @@ header {
   align-items: center;
   flex-direction: column;
   padding: 3%;
-  background-color: #0c0c0c;
+  background-color: #FFFFFF;
   color: white;
   height: 100%;
 }
@@ -322,7 +322,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0c0c0c;
+  background-color: #FFFFFF;
   color:white;
   flex-direction: column;
   min-height: 100vh;
@@ -445,7 +445,7 @@ q {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #0c0c0c;
+  background-color: #FFFFFF;
   color: white;
 }
 .articles {
@@ -464,7 +464,7 @@ article {
   flex-wrap: wrap;
   align-items: center;
   height: 100%;
-  background-color: #0c0c0c !important;
+  background-color: #FFFFFF !important;
   color: white;
   padding: 2%;
 }
