@@ -540,13 +540,14 @@ article {
   align-items: center;
   color: #392624;
   font-size: 15px;
-  border: 1px solid #392624;
+  border: 1px solid #684743;
   border-radius: 6px;
   padding: 2% 4%;
-  transition: .6s
+  transition: .6s;
+  color: white;
 }
 .info a:hover {
-  background-color: #392624;
+  background-color: #684743;
   color: #fff;
 }
 .article-content:hover > .info {
