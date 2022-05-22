@@ -41,7 +41,7 @@ input[type=number] {
 }
 #go2Top:hover {
     line-height: 20px !important;
-    background-color: #504847;;
+    background-color: #684743;
 }
 /* Scrollbar */
 ::-webkit-scrollbar{
@@ -81,7 +81,7 @@ nav{
   font-family: "Roboto Slab", "sans-serif";
 }
 .logo img {
-  height: 6vh;
+  height: 9vh;
   width: auto;
 }
 .menu-toggler{
@@ -201,7 +201,7 @@ header {
   transition: .3s;
 }
 #home .btn:hover {
-  background-color: #504847;;
+  background-color: #684743;
   padding: 3% 8% 3% 8%;
 }
 /* Header */
@@ -713,7 +713,7 @@ footer {
 }
 .contactForm .inputBox input[type="submit"]:hover
 {
-  background-color: #504847;
+  background-color: #684743;
   width: 130px;
 }
 @media (max-width: 991px) {
