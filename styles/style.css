@@ -172,7 +172,7 @@ nav{
 /* Header */
 header {
   height: 70vh;
-  background: url(https://picsum.photos/seed/picsum/1920/1080) no-repeat center;
+  background: url(../img/background.jpg) no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   display: flex;
