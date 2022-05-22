@@ -350,9 +350,8 @@ header {
 .project a {
   margin: 5%;
 }
-.project hr {
-  width: 80%;
-  border: #392624 1px solid;
+.project a {
+  color: #392624;
 }
 @media screen and (max-width: 1300px) {
   .project {
