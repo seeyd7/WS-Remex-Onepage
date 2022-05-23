@@ -897,6 +897,15 @@ footer img {
   #article-home {
       max-width: 60%;
   }
+  .parameters-box h2 {
+    font-size: 30px;
+  }
+  .parameters-box h3 {
+    font-size: 15px;
+  }
+  .parameters-box p {
+    font-size: 11px;
+  }
 }
 @media screen and (max-width: 800px) {
   #article-home {
