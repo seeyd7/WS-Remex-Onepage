@@ -768,6 +768,12 @@ footer img {
   height: 225px;
   width: auto;
 }
+@media screen and (max-width: 500px) {
+  footer img {
+    height: 170px;
+    width: auto;
+  }
+}
 .footer-box {
   height: 55vh;
   width: 33.3%;
