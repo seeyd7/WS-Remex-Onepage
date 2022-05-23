@@ -759,7 +759,7 @@ footer {
 footer {
   padding: 2%;
   background-color: #392624 !important;
-  height: 35vh;
+  height: 55vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -769,7 +769,7 @@ footer img {
   width: auto;
 }
 .footer-box {
-  height: 35vh;
+  height: 55vh;
   width: 33.3%;
   display: flex;
   justify-content: center;
