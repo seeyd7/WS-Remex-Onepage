@@ -110,7 +110,6 @@ nav{
   font-weight: bold;
   margin-left: 30px;
   transition: .2s linear;
-  font-weight: 200;
 }
 .navbar-menu a:hover{
   color: #684743;
@@ -179,7 +178,6 @@ header {
   text-align: center;
   justify-content: flex-start;
 }
-
 #home {
   display: flex;
   justify-content: flex-start;
@@ -340,6 +338,18 @@ header {
   background-color: #F2E9D7;
   flex-direction: column;
 }
+.project h1:after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px #392624;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+.project h1:hover:after { 
+  transform: scaleX(1); 
+}
+
+
 .project img {
   width: 250px;
   height: 250px;
@@ -664,7 +674,8 @@ footer {
 }
 .container .contactInfo .box .text h3 {
   font-weight: 500;
-  color: #392624;
+  font-size: 22px;
+  color: black;
 }
 .contactForm {
   width: 40%;
@@ -748,7 +759,7 @@ footer {
 footer {
   padding: 2%;
   background-color: #392624 !important;
-  min-height: 55vh;
+  height: 35vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -758,7 +769,7 @@ footer img {
   width: auto;
 }
 .footer-box {
-  height: 55vh;
+  height: 35vh;
   width: 33.3%;
   display: flex;
   justify-content: center;
@@ -793,3 +804,86 @@ footer img {
   }
 }
 /* Stopka kontakt */
+/* Artykuł */
+.article-header {
+  height: 90vh;
+  background: url(../img/article1.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  text-align: center;
+  justify-content: flex-end;
+}
+#article-home {
+  max-width: 40%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-self: center;
+  padding: 0% 5% 0% 5%;
+  text-align: left;
+  color: white;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 0px 0px 9px rgba(66, 68, 90, 1);
+}
+#article-home h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+#article-home h2{
+  font-size: 35px;
+}
+#article-home h3 {
+  font-size: 20px;
+  font-weight: 100;
+}
+#article-home p {
+  font-size: 15px;
+  font-weight: 100;
+}
+#article-home .btn {
+  color: white;
+  background-color: #392624;
+  padding: 3% 6% 3% 6%;
+  text-transform: uppercase;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .3s;
+  font-weight: 400;
+}
+#article-home .btn:hover {
+  background-color: #684743;
+  padding: 3% 8% 3% 8%;
+}
+.project-parameters {
+  height: 10vh;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.parameters-box {
+  color: #392624;
+  width: 25%;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.parameters-box h2 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 300 !important;
+}
+.parameters-box p {
+  font-weight: 900 !important;
+  font-size: 25px;
+}
+/* Artykuł */
