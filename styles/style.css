@@ -179,6 +179,7 @@ header {
   justify-content: flex-start;
 }
 #home {
+  max-width: 50%;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -187,6 +188,16 @@ header {
   padding: 0% 5% 0% 5%;
   text-align: left;
   color: white;
+}
+@media screen and (max-width: 700px) {
+  #home {
+    max-width: 80%;
+  }
+}
+@media screen and (max-width: 350px) {
+  #home {
+    max-width: 100%;
+  }
 }
 #home .btn {
   color: white;
