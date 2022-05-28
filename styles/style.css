@@ -821,7 +821,7 @@ footer img {
   justify-content: flex-end;
 }
 #article-home {
-  max-width: 40%;
+  max-width: 50%;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -898,13 +898,23 @@ footer img {
       max-width: 60%;
   }
   .parameters-box h2 {
-    font-size: 30px;
+    font-size: 20px;
   }
   .parameters-box h3 {
     font-size: 15px;
   }
   .parameters-box p {
-    font-size: 11px;
+    font-size: 22px;
+  }
+  #article-home h3{
+    font-size: 15px
+  }
+  #article-home h1 {
+    font-size: 30px;
+  }
+  .parameters-box {
+    margin-top: 2%;
+    margin-bottom: 2%;
   }
 }
 @media screen and (max-width: 800px) {

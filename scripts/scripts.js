@@ -29,6 +29,16 @@ go2Top.addEventListener("click", () => {
 	if(go2Top.style.opacity != 0) window.scrollTo(0, 0);
 })
 
+menuToggler.addEventListener("click", () => {
+	if(menuToggler.classList.contains("active")) {
+		menuToggler.classList.remove("active");
+		navMenu.classList.remove("active");
+	} else {
+		menuToggler.classList.add("active");
+		navMenu.classList.add("active");
+	}
+});
+
 function showSlides(n) {
 	var i;
 	var slides = document.getElementsByClassName("mySlides");
@@ -56,14 +66,5 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
-menuToggler.addEventListener("click", () => {
-	if(menuToggler.classList.contains("active")) {
-		menuToggler.classList.remove("active");
-		navMenu.classList.remove("active");
-	} else {
-		menuToggler.classList.add("active");
-		navMenu.classList.add("active");
-	}
-});
 
 
