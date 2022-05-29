@@ -1039,7 +1039,7 @@ footer img {
   border: none;
   cursor: pointer;
 }
-.active {
+.schema-active {
   background-color: #392624;
   color: white !important;
 }
